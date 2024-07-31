@@ -43,6 +43,6 @@ If you would like to contribute to this repository, please follow the guidelines
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code and resources provided here for your own learning purposes.
+This repository is licensed under the [MIT License](LICENSE.md). Feel free to use the code and resources provided here for your own learning purposes.
 
 Happy coding!

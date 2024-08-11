@@ -1,0 +1,40 @@
+// Arrow Functions
+
+// Arrow functions are a more concise way to write function expressions. They are written using a fat arrow (=>) between the parameters and the function body.
+
+// The following function expression:
+
+const user = {
+    name : 'John',
+    greet: function() {
+        console.log('Hello, ' + this.name);
+    }
+}
+
+user.greet();
+user.name = "Ayush";
+user.greet();
+
+console.log(this); 
+// the value of this keyword is {} empty object in nodejs but it is window object in browser
+
+// Assigning Arrow function
+
+const greet2 = () => {
+    const name = "Ayush";
+    console.log('Hello, ' + name);
+}
+
+greet2();
+
+// Arrow function with parameters
+// const addTwoNum = (num1,num2)=> {
+//     return num1 + num2;
+// }
+
+// implicit return
+const addTwoNum = (num1,num2)=> (num1 + num2);
+
+// if we are returning only one statement then we can remove the curly braces and return keyword
+
+console.log(addTwoNum(2,3));

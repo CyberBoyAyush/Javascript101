@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style = "background-color: #212121; color: #fff;">
+    <div class="main">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+    </div>
+</body>
+<script>
+    const main = document.querySelector('.main');
+    console.log(main)
+    const mainChild = main.children;
+    console.log(mainChild);
+    for(let i = 0; i<mainChild.length; i++){
+        console.log(mainChild[i].innerHTML);
+    }
+    main.style.color = "red";
+</script>
+</html>

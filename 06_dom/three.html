@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style = "background-color: #212121; color: #fff;">
+
+</body>
+<script>
+    const div = document.createElement('div');
+   
+    div.id = 'main';
+    div.innerHTML = '<h1>DOM Learning</h1>';
+    div.setAttribute("ayush","sharma");
+    div.style.backgroundColor = 'green';
+    div.style.color = 'white';
+    document.body.appendChild(div); // adding div to body
+    console.log(div);
+
+</script>
+</html>

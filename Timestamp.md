@@ -1,7 +1,3 @@
 Timestamp
 
-2:53:43 - [Link](https://youtu.be/sscX432bMZo?t=10423)
-4:35:40 - [Link](https://youtu.be/sscX432bMZo?t=16490)
-5:17:00 - [Link](https://youtu.be/sscX432bMZo?t=19073)
-6:21:49 - [Link](https://youtu.be/sscX432bMZo?t=22909)
-8:26:22 - [Link](https://youtu.be/sscX432bMZo?t=30382)
+2:17:30 - [Link](https://youtu.be/_TjtAyMkiTI?t=8250)  
